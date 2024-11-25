@@ -1,0 +1,56 @@
+*{
+   /*margin: 0;
+   padding: 0;*/
+   box-sizing: border-box; 
+}
+
+body{
+   font-family: "Roboto", sans-serif;
+}
+
+h1{
+   border: 2px;
+   padding: 5px;
+   border-style: dotted;
+   border-color: brown;
+   color: goldenrod;
+}
+
+nav ul{
+   display: flex;
+   justify-content: space-around;
+}
+
+nav ul li{
+   list-style: none;
+}
+
+a{
+   text-decoration: none;
+}
+
+#highlight{
+   text-decoration: underline;
+   border: 1px solid blueviolet;
+   background-color: yellow;
+   color: brown;
+   display: inline-block;
+   height: 60px;
+}
+
+.random{
+   text-align: justify;
+   line-height: 40px;
+}
+
+main a{
+   font-size: 20px;
+}
+
+a{
+   transition: all 2s;
+}
+
+a:hover{
+   color: coral;
+}

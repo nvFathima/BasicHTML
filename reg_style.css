@@ -1,0 +1,58 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+div h1{
+    color: antiquewhite;
+    text-align: center;
+}
+
+div h3{
+    color: antiquewhite;
+    text-align: center;
+}
+
+#headersec{
+    display: flex;
+    gap: 10px;
+}
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+section{
+    padding: 20px;
+}
+
+table{
+	
+	width:100%;
+	height:100%;
+}
+
+input.textbox{
+    width: 90%;
+    height: 30px;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: chocolate;
+    font-size: 20px;
+    color: firebrick;
+}
+button:hover{
+    background-color: blanchedalmond;
+    cursor: pointer;
+}

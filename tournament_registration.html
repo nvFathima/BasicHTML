@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament Registration</title>
+    <link rel="stylesheet" href="reg_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div style='background-color:maroon'>
+        <br><h1>Tournament Registration Form</h1><br></div>
+        <hr/>
+        <section id="headersec">
+            <img src="https://www.freevector.com/uploads/vector/preview/7479/FreeVector-Football-Graphics.jpg" alt="football player">
+            <p>A tournament is a sports competition in which players who win a match continue to play further matches in the competition until just one person or team is left. If we go through in the tournament he will only get better.</p>
+        </section>
+        <hr/>
+    <table border='2' cellpadding='15px' align='center'>
+        <tr><td>
+    <form action="tournament_registration.html">
+        <section>
+            <label for="first_name">First Name:</label>
+            <input  id="first_name" name="first_name" type="text" placeholder="Enter Your First Name" style="height: 30px;font-size: 16px;width: 30%;" required>
+            <label for="last_name">Last Name:</label>
+            <input  id="last_name" name="last_name" type="text" placeholder="Enter Your Last Name" style="height: 30px;font-size: 16px;width: 30%;" required>
+        </section>
+        <section>
+            <label for="email">Email:</label>
+            <input class= 'textbox' type="email" id="email" name="email" placeholder="Enter Your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required>
+        </section>
+        <section>
+            <label for="phone">Contact No:</label>
+            <input class= 'textbox' type="text" id="phone" name="phone" placeholder="Enter Your Contact No" pattern="[789][0-9]{9}" required>
+        </section>
+        <section>
+            <label for="category">Category:</label>
+            <input type="radio" id="category" name="category" value="Under 19" required>Under 19
+            <input type="radio" id="category" name="category" value="Others" required>Others
+        </section>
+        <section>
+            <label for="check">Tournament:</label>
+            <input type="checkbox" id="check" name="7's" value="seven" required>7's
+            <input type="checkbox" id="check" name="11's" value="eleven" required>11's
+        </section>
+        <button type="button">Register</button>
+    </form>
+    </td></tr>
+    </table>
+</body>
+</html>
